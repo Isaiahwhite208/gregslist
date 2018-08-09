@@ -7,3 +7,5 @@ export default class app {
   }
  }
 }
+
+window.app = new App()
