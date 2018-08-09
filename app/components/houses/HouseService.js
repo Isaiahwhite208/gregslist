@@ -10,14 +10,6 @@ export default class HouseService {
   getHouses() {
     let housesCopy = []
 
-    //same as below
-    // for (let i = 0; i < houses.length; i++) {
-    //   const house = houses[i];
-
-    // }
-
-    // this is just saying for each 'house'
-    //  in the whole houses array do whatever is in the code block 
     house.forEach(house => {
       housesCopy.push(new House(
         house.make,

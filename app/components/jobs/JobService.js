@@ -10,14 +10,6 @@ export default class jobService {
   getjobs() {
     let jobsCopy = []
 
-    //same as below
-    // for (let i = 0; i < jobs.length; i++) {
-    //   const job = jobs[i];
-
-    // }
-
-    // this is just saying for each 'job'
-    //  in the whole jobs array do whatever is in the code block 
     jobs.forEach(job => {
       jobsCopy.push(new job(
         job.title,
