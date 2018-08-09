@@ -12,7 +12,6 @@ export default class HouseService {
 
     house.forEach(house => {
       housesCopy.push(new House(
-        house.make,
         house.builder,
         house.year,
         house.price,
@@ -26,7 +25,6 @@ export default class HouseService {
 
   addHouse(formData) {
     let newHouse = new House(
-      formData.make.value,
       formData.builder.value,
       formData.year.value,
       formData.price.value,

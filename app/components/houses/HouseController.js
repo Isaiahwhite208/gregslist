@@ -10,7 +10,6 @@ function drawHouses() {
     const house = houses[i];
     template += `
     <div style="outline: 1px solid black" class="col-3">
-        <p>Make: ${house.make}</p>
         <p>${house.builder}</p>
         <p>${house.price}</p>
         <p>${house.year}</p>

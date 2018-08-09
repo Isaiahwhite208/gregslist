@@ -1,6 +1,5 @@
 export default class House {
-  constructor(make, builder, year, price, stories, squareFt, imgUrl) {
-    this.make = make
+  constructor(builder, year, price, stories, squareFt, imgUrl) {
     this.builder = builder
     this.year = year
     this.price = price
