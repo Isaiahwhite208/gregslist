@@ -7,6 +7,12 @@ export default class App {
     this.controllers = {
       carController: new CarController()
     }
+    this.controllers = {
+      jobController: new JobController()
+    }
+    this.controllers = {
+      houseController: new HouseController()
+    }
   }
 }
 

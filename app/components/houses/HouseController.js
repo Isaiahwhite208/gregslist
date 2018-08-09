@@ -15,6 +15,7 @@ function drawHouses() {
         <p>${house.price}</p>
         <p>${house.year}</p>
         <p>${house.stories}</p>
+        <p>${house.squareFt}</p>
         <img src="${house.imgUrl}" alt="somethingelse">
     </div>
     `

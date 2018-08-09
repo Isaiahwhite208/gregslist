@@ -25,6 +25,7 @@ export default class HouseService {
         house.year,
         house.price,
         house.stories,
+        house.squareFt
         house.imgUrl
       ))
     })
@@ -38,6 +39,7 @@ export default class HouseService {
       formData.year.value,
       formData.price.value,
       formData.stories.value,
+      formData.squareFt.value,
       formData.imgUrl.value
     )
     house.push(newHouse)
