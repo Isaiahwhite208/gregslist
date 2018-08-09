@@ -1,11 +1,12 @@
-import CarController from "./app/components/car/CarController.js"
+import CarController from "./app/components/cars/CarController.js";
 
-export default class app {
- constructor() {
-  this.controllers = {
-   carController: new CarController()
+export default class App {
+  constructor() {
+    this.controllers = {
+      carController: new CarController()
+    }
   }
- }
 }
 
+//@ts-ignore
 window.app = new App()

@@ -11,6 +11,6 @@ export default class CarController {
  addCar(triggeredEvent) {
   triggeredEvent.preventDefault();
   let formData = triggeredEvent.target
-  console.log(triggeredEvent.target.make)
+  console.log(triggeredEvent.target)
  }
 }
