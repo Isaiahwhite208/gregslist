@@ -10,11 +10,11 @@ function drawjobs() {
     const job = jobs[i];
     template += `
     <div style="outline: 1px solid black" class="col-3">
-        <p>Make: ${job.title}</p>
-        <p>${job.profession}</p>
-        <p>${job.hours}</p>
-        <p>${job.wage}</p>
-        <p>${job.degrees}</p>
+        <p>Title: ${job.title}</p>
+        <p>Profession: ${job.profession}</p>
+        <p>Hours: ${job.hours}</p>
+        <p>Wage: ${job.wage}</p>
+        <p>Degree(s): ${job.degrees}</p>
         <img src="${job.imgUrl}" alt="somethingelse">
     </div>
     `

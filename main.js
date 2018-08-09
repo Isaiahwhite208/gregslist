@@ -5,12 +5,8 @@ import HouseController from "./app/components/houses/HouseController.js";
 export default class App {
   constructor() {
     this.controllers = {
-      carController: new CarController()
-    }
-    this.controllers = {
-      jobController: new JobController()
-    }
-    this.controllers = {
+      carController: new CarController(),
+      jobController: new JobController(),
       houseController: new HouseController()
     }
   }

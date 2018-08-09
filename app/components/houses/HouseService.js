@@ -16,7 +16,7 @@ export default class HouseService {
         house.year,
         house.price,
         house.stories,
-        house.squareFt
+        house.squareFt,
         house.imgUrl
       ))
     })
